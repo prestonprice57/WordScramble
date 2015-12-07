@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		84EC48861C122B1F0035398C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EC48851C122B1F0035398C /* AppDelegate.swift */; };
 		84EC48881C122B1F0035398C /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EC48871C122B1F0035398C /* MasterViewController.swift */; };
-		84EC488A1C122B1F0035398C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EC48891C122B1F0035398C /* DetailViewController.swift */; };
 		84EC488D1C122B1F0035398C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EC488B1C122B1F0035398C /* Main.storyboard */; };
 		84EC488F1C122B1F0035398C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84EC488E1C122B1F0035398C /* Assets.xcassets */; };
 		84EC48921C122B1F0035398C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EC48901C122B1F0035398C /* LaunchScreen.storyboard */; };
 		84EC489D1C122B1F0035398C /* WordScrambleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EC489C1C122B1F0035398C /* WordScrambleTests.swift */; };
 		84EC48A81C122B1F0035398C /* WordScrambleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EC48A71C122B1F0035398C /* WordScrambleUITests.swift */; };
+		84EC48B61C122C3A0035398C /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 84EC48B51C122C3A0035398C /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		84EC48821C122B1F0035398C /* WordScramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordScramble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EC48851C122B1F0035398C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84EC48871C122B1F0035398C /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		84EC48891C122B1F0035398C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		84EC488C1C122B1F0035398C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84EC488E1C122B1F0035398C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84EC48911C122B1F0035398C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		84EC48A31C122B1F0035398C /* WordScrambleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordScrambleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EC48A71C122B1F0035398C /* WordScrambleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScrambleUITests.swift; sourceTree = "<group>"; };
 		84EC48A91C122B1F0035398C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EC48B51C122C3A0035398C /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +101,8 @@
 			children = (
 				84EC48851C122B1F0035398C /* AppDelegate.swift */,
 				84EC48871C122B1F0035398C /* MasterViewController.swift */,
-				84EC48891C122B1F0035398C /* DetailViewController.swift */,
 				84EC488B1C122B1F0035398C /* Main.storyboard */,
+				84EC48B51C122C3A0035398C /* start.txt */,
 				84EC488E1C122B1F0035398C /* Assets.xcassets */,
 				84EC48901C122B1F0035398C /* LaunchScreen.storyboard */,
 				84EC48931C122B1F0035398C /* Info.plist */,
@@ -233,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84EC48921C122B1F0035398C /* LaunchScreen.storyboard in Resources */,
+				84EC48B61C122C3A0035398C /* start.txt in Resources */,
 				84EC488F1C122B1F0035398C /* Assets.xcassets in Resources */,
 				84EC488D1C122B1F0035398C /* Main.storyboard in Resources */,
 			);
@@ -259,7 +260,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84EC488A1C122B1F0035398C /* DetailViewController.swift in Sources */,
 				84EC48881C122B1F0035398C /* MasterViewController.swift in Sources */,
 				84EC48861C122B1F0035398C /* AppDelegate.swift in Sources */,
 			);
